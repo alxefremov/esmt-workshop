@@ -1,0 +1,921 @@
+﻿country,reference_information,examples,additional_information
+Argentina,"The address format consists of the following lines: Name, Street name and number, Complements (e.g., floor, apartment), Neighbourhood (if needed), and finally the Postal code and Municipality.","Luis Escala
+Piedras 623
+Piso 2, depto 4
+C1070AAM, Capital Federal
+---
+Old Format Example:
+Luis Escala
+French 392
+Banfield (1828)
+Lomas de Zamora, Pcia Buenos Aires
+---
+New Format Example:
+Luis Escala
+French 392
+Banfield
+B1828HKH, Lomas de Zamora","The postal code has been changed from a four-digit format to an eight-digit format. The new format adds a district or province letter code at the beginning for identification. As the system was changed recently, the four-digit format can still be used, but it requires adding the name of the province or district."
+Australia,"The address format consists of the recipient's name, followed by optional information, then the street address, and finally a line with the locality, state/territory, and postcode. The street address places the street number (which can be a range) before the street name. Subunit numbers like apartments or units are placed before the street number, separated by a forward slash (/). The final line should be in capital letters and contains the locality (suburb/town, not the city), the abbreviated state/territory, and the postcode. The locality and state are separated by two spaces, and the state and postcode are also separated by two spaces.","Ms H Williams
+Finance and Accounting
+Australia Post
+219–241 Cleveland St
+STRAWBERRY HILLS  NSW  1427
+
+---
+
+Mr J. O'Donnell
+Lighthouse Promotions
+PO Box 215
+SPRINGVALE  VIC  3171","The postcode serves as routing information. It is incorrect to include the city or metropolis name unless it is also the name of the suburb, and doing so may delay delivery. The state/territory abbreviation is crucial as many place names are reused. In rural areas, property numbers are calculated based on the distance in metres from the start of the road, divided by ten (e.g., 5080 metres becomes number 508). Even numbers are on the right side of the road, and odd numbers are on the left. Other delivery types include: CARE PO (Care of post office), CMB (Community mail bag), GPO BOX (General Post Box), LOCKED BAG, MS (Mail service), RSD (Roadside delivery), RMS (Roadside mail service), RMB (Roadside mail box/bag), PRIVATE BAG, CMA (Community mail agent), and CPA (Community postal agent)."
+Austria,"The address format consists of the following lines: Addressee (Natural person/Organization), an optional more detailed description of the addressee, Street name + number, Postal code + town, and Country (if other than Austria).","Firma ABC
+Kundendienst
+Hauptstr. 5
+1234 Musterstadt",The postal code always consists of four digits.
+Bangladesh,"In Bangladesh, the format for rural and urban addresses differs. Urban Address Format: Addressee (Natural person/Organization), More detailed description of addressee (optional), Flat Number, Building Name (if available), Street name + number, Town + postal code, Country (for international mail). Rural Address Format: Name, More detailed description of addressee (optional), Village Name, Post office, Thana Name, District Name, Country (for international mail).","Urban Example:
+Sheikh Mujibur Rahman
+Dhanmondi. 32
+Dhaka-1209
+Bangladesh
+
+---
+
+Rural Example:
+Sheikh Mujibur Rahman
+Village: Tungipara
+P.O.: Tungipara
+Thana: Tungipara
+District: Gopalganj
+Bangladesh",The postal code always consists of four digits.
+Belarus,"The address format is structured as follows, from top to bottom:
+1. Name of addressee
+2. Street name, number, apartment/room
+3. Village (in rural areas when different from post office)
+4. Postal code, post office (in rural areas) or city/town
+5. Raion (District)
+6. Region
+7. Country (for international mail)","Cyrillic example:
+Свістунову Івану Пятровічу
+вул. Цэнтральная, д. 20
+в. Караліставічы
+223016, п/а Новы Двор
+Мінскага р-на.
+Мінскай вобл.
+Беларусь (BELARUS)
+
+---
+
+Latin example:
+Svistunov Ivan Piatrovič
+vul. Centraĺnaja, d. 20
+v. Karalistavičy
+223016, p/a Novy Dvor
+Minskaha r-na
+Minskaj vobl.
+BELARUS","In some neighborhoods, buildings may not face a named street. Subsidiary buildings can be addressed using 'bud.' (abbreviation for 'budynak', meaning building), e.g., 'vul. Lenina, d. 123, bud. 2'. In newer areas, buildings not on a named street may have Cyrillic letters appended to the building number (e.g., 123-а, 123-б). In 'microraion' neighborhoods, the microraion's name or number can replace the street name, e.g., '4-th microrayon, d. 123, kv. 56'. The information is sourced from Belposhta."
+Belgium,"The address starts with the most specific information (addressee) and ends with the most general (postcode and town). The general structure is: Addressee, Optional Function/Department, Organization, Optional Spatial/Dispatching Information (e.g., building, floor), Thoroughfare Name + Street Number + Box Number, Postal Code + Town, and Country (for international mail). The street number is placed after the street name, separated by a space. Separators like punctuation or 'nº' are not allowed. Box numbers, if present, appear on the same line as the street, preceded by the word 'bus' (Dutch) or 'bte' (French).","Example (French):
+Monsieur Alain Dupont
+Directeur Service Clients
+Acme SA
+Bloc A – étage 4
+Rue du Vivier 7C bte 5
+1000 Bruxelles
+BELGIQUE
+
+---
+
+Example (Dutch):
+Dhr Paul Janssens
+Afdeling Kwaliteit
+Acme NV
+Gebouw A – Verdieping 3
+Volklorenlaan 81 bus 15
+2610 Wilrijk
+BELGIË","Spatial information like building, wing, stairwell, or floor is not allowed in the delivery point location line (the line with the street name and number). If needed, this information must appear on a line above the street line. Symbols such as 'b', 'Bt', '#', '-', '/' are not permitted as separators between the street number and the box number. The official addressing guidelines are registered with the Universal Postal Union (UPU) and can be found on the bpost (Belgian postal operator) website, which also offers an address validation service."
+Brazil,"The address format consists of the recipient's name, followed by the street type, street name, number, and apartment/room if needed. The next lines include the neighbourhood (optional), the municipality and state abbreviation, and finally the postal code.","Carlos Rossi
+Avenida João Jorge, 112, ap. 31
+Vila Industrial
+Campinas – SP
+13035-680","States can be written in full or abbreviated to two letters (e.g., SP for São Paulo). Postal codes are individualized for streets in towns with 60,000+ inhabitants, with suffixes from -000 to -899. Smaller towns use a generic postcode ending in -000. Bulk mail recipients have specific postcodes with suffixes from -900 to -959. P.O. boxes use suffixes from -970 to -979, and some rural settlements use the suffix -990."
+Bulgaria,"The address format starts with the most specific information (addressee) and ends with the most general (city/country). The street number follows the street name, separated by a space and 'No. '. Spatial information like building, floor, or apartment number, if needed, appears on a line above the street line. The general structure is: 
+1. Name (personal name, patronymic, surname)
+2. Function/department (optional)
+3. Company/organization name (optional)
+4. Spatial/dispatching information (e.g., street name and number, block, entrance, floor, apartment)
+5. Post office box number + neighborhood (optional)
+6. Rayon (district) (optional)
+7. City/town/village + Postal Code
+8. Oblast (province) (optional)
+9. COUNTRY (for international mail)","(Example in Bulgarian)
+Николай Георгиев Сармаков
+свещеник
+към църква ""Св. Параскева""
+ул. ""Патриарх Евтимий"" No. 1011, бл. 1, вх. 2, ет. 1, ап. 1
+П.К. 10117 Стария град
+(Район Централен)
+Пловдив 4000
+(Община Пловдив)
+(Област Пловдив)
+БЪЛГАРИЯ
+
+---
+
+(Example in English/Latin script for international mail)
+Nikolay Georgiev Sarmakov
+priest
+with the Sv. (Saint) Paraskeva Church
+1011 Patriarh Evtimiy Str. (Patriarch Euthymius), block 1, entrance 2, floor 1, flat (apartment) 1
+P.O.(box) 101178 The Old Town
+(Central District)
+Plovdiv 4000
+(Plovdiv Municipality)
+(Plovdiv Province)
+BULGARIA","Domestic mail is written in Bulgarian Cyrillic, while international mail uses the Latin script (usually English). There can be confusion with the abbreviation 'П.К.', which can mean either 'пощенски код' (postal code) or 'пощенска кутия' (P.O. box). The addressee's information is placed on the bottom right of the envelope, and the sender's on the top left or reverse side. Mail can also be sent 'до поискване' (for collection at the post office). The addressing guidelines are registered with the Universal Postal Union (UPU)."
+Canada,"An apartment number should be written before the house number and separated by a hyphen. Cardinal directions (e.g., North, North West) can be abbreviated and appear after the street name. Ordinal numbered streets can be written in either English or French. Proper nouns like street names should not be translated, with the exception of 'Street', 'Avenue', and 'Boulevard' which can be interchanged with their French equivalents. The city name is followed by a two-letter provincial abbreviation. There should be two spaces between the province abbreviation and the postal code. If sending from outside Canada, the word 'CANADA' must be placed at the very bottom.","English (from Canada Post):
+NICOLE MARTIN
+123 SHERBROOKE ST
+TORONTO ON L3R 9P6
+
+---
+
+French (from Postes Canada):
+CLAUDE M UNTEL
+10-123 RUE MAIN SE
+MONTRÉAL QC H3Z 2Y7
+
+---
+
+Québec (from the OQLF):
+Monsieur Jean-Pierre Lamarre
+101–3485, rue de la Montagne
+Montréal (Québec) H3G 2A6","Addressing guidelines are issued by Canada Post, but their use can differ between English- and French-speaking populations. Postal codes have a letter-number-letter-space-number-letter-number format (e.g., A1A 1A1). The Province of Québec, through the Office québécois de la langue française (OQLF), maintains a French address format that differs from the one published by Postes Canada. For accurate, up-to-date information, refer to the official guidelines from Canada Post and the OQLF."
+Chile,"Chilean address formats vary based on the location type. For urban areas, the required components are street name, house number, apartment number (if applicable), and municipality; however, the commune (neighborhood) and region are also frequently included. For smaller cities, the format often includes the recipient's name, street and number, apartment number, neighborhood, and region. In large rural municipalities with multiple towns, the address must include the town, postal code, or both. In other rural areas where house numbers may not exist, addresses can be identified by a street name followed by a reference point, such as 'S/N' (sin número/no number).","Example 1 (Urban):
+Sr. Rodrigo Domínguez
+Av. Bellavista N° 185
+Dep. 609
+8420507 RECOLETA
+REGION METROPOLITANA
+
+---
+
+Example 2 (Smaller City):
+Sra. Isidora Retamal
+Nelson N° 10, Dep. 415
+CERRO BARON
+V REGION VALPARAISO
+
+---
+
+Example 3 (Rural with Town):
+Inversiones Aldunate y Cía. S.A.
+Los Aromos N° 12185
+25000311 MAITENCILLO
+V REGION VALPARAISO
+
+---
+
+Example 4 (Rural without House Number):
+Sra. Isidora Retamal
+Camino Publico S/N, Tunca Arriba
+2970000 SAN VICENT DE T.T.
+VI REGION O'HIGGINS","Postal codes are rarely used by people. All postal codes have seven digits; the first three indicate the municipality, and the next four identify a block or a quadrant. It is important to mention the municipality, as many large cities comprise several adjacent municipalities. In smaller cities, it is common to mention unofficial 'comunes' (neighborhoods) for addressing purposes."
+China,"China uses two main address formats. The Chinese-language format is big-endian, meaning it is written from the largest geographical area to the smallest. The structure is: Province, prefecture-level city, district or county (sometimes omitted), township/town/subdistrict (often omitted), village/community (usually omitted), road name, road number, building name, floor/level, room number. As a member of the Universal Postal Union (UPU), China Post also supports an English-language format which is little-endian (smallest to largest area). The structure is: Room number, floor/level, building name, road number, road name, village/community (often omitted), township/town/subdistrict (often omitted), district/county (sometimes omitted), prefecture-level city, postcode and province, country name.","Chinese Example (Domestic):
+Postcode: 350503
+Address: 福建省福州市连江县丹阳镇新洋村团结路10号
+Recipient: 陈立国　先生　收
+
+English Example (International):
+Mr. CHEN Liguo
+No. 10 Tuanjie Road, Xinyang Village, Danyang Town
+Lianjiang County, Fuzhou City
+350503 FUJIAN
+P.R. CHINA","Addresses written in Chinese should preferably use Simplified Chinese characters. Chinese domestic letters only support the Chinese-language, big-endian format. For these domestic letters, the postcode is written in squares in the upper left corner, and the recipient's name is followed by their title and the character '收' (receive). International letters to China support the English-language, little-endian format."
+Colombia,"The address format uses a numeric format based on 'calles' which increase the number from south to north and 'carreras' which increase the number from east to west. The format consists of the Calle number, the Number of the Carrera and the house, and the City.","Calle 34 #24 – 30, Bogotá",
+Croatia,"The recommended address format is: Addressee (individual or organization), Locality (if applicable and different from post office name), Floor and door (only if necessary), Street name + house number, Postal code + post office name, and Country (if sent internationally).","Hrvoje Horvat
+Soblinec
+1. kat, stan 2
+Soblinečka ulica 1
+10360 SESVETE
+CROATIA","Croatia uses five-digit postal code numbers. The Croatian postal service recommends using 2-letter ISO country codes as prefixes before international and domestic postal codes, though the practice is not mandatory."
+Czech Republic,"The general address format is: (Optional: Company + department), Name, Street name (or village name) + house number, Postal code + Town (or post office). For private letters, the first line is often a courtesy title (pan, paní, slečna). For mail addressed to a workplace, the order is Name then Company for private mail, and Company then Name for official mail.","První informační
+Josef Novák
+Brněnská 2256/16
+123 07 Jitrnice","Postal codes are in the format '### ##' or 'CZ-#####' for international mail. They should be written before the town name. The house numbering system can be complex. It may use a conscription number ('čísla popisná, čp.'), an evidential number ('číslo evidenční, ev. č.'), or a dual system. In larger cities, a dual system is common, featuring a conscription number and an orientational number ('orientační číslo, č. or.') separated by a slash. The orientational number is preferred for mail services."
+Denmark,"The format consists of:
+Name
+Street name + number + apartment floor and side (t.h./mf./t.v.) (optional)
+Postal code + town","Stig Jensen
+Solvej 5, 4. t.v.
+5250 Odense SV","In apartment buildings, the address should contain the floor and a side indicator (t.v., mf., or t.h., meaning ""to the left"", ""in the middle"", and ""to the right"", respectively) or an alphanumeric character (1, 2, 3... or A, B, C...). For postal codes 2000 and up, there is a 1:1 relationship between the postal code and the town."
+Estonia,"Name
+Street + Building number + apartment number
+Postal code + town
+COUNTRY","Kati Kask
+Aia tn 1–23
+10615 Tallinn
+ESTONIA",
+Finland,"Company
+Name or Department
+Street name + number + *apartment number
+Postal code + Town (uppercase)
+Country (if other than Finland)","Eduskunta
+Matti Mallikainen
+Mannerheimintie 30 as. 1
+00100 HELSINKI
+Finland","If a person's name is written before the company name, that person is the recipient and only they may open the letter. If the company name is first, the company is the recipient. The apartment number can be formatted as 'as 5' (as is an abbreviation for asunto, apartment) or as 'C 55' (the letter indicates the staircase). Finland uses a five-digit postal code. Some larger companies and organizations have their own postal codes."
+France,"The address is generally formatted as follows:
+Line 1: Addressee (Natural person/Organization)
+Line 2: More detailed description of addressee (optional)
+Line 3: House number + Street name
+Line 4: Postal code + uppercase location
+Line 5: Country (if other than France)","Entreprise ABC
+M. Frank Bender
+12 rue de la Montagne
+01234 EXAMPLEVILLE","The postal code always consists of five digits. The location is usually a town, but may be other territorial entities (up to a département). Organisations, government agencies, and companies which receive large amounts of mail often have a special CEDEX address which goes after the last line (for instance, ""75001 PARIS CEDEX"")."
+Germany,"The address is formatted with the addressee (person or organization) on the first line, an optional detailed description on the second, the street name and number on the third, and the postal code and town on the fourth. The country is added on a final line if the mail is sent from outside Germany.","Firma ABC
+Kundendienst
+Hauptstr. 5
+01234 Musterstadt","The postal code always has five digits. Bulk customer postal codes exist for organizations with large mail volumes and do not require a street name line. Some locations have house numbers but no street names (e.g., Baltrum), or vice versa. Post codes follow DPAG's mail routing, not administrative boundaries. Sub-building information like apartment numbers is rarely used; a name on the post box is the usual identifier. For a village within a larger municipality, the village name can be omitted or written on a separate line before the street, often with the abbreviation 'OT' for Ortsteil."
+Greece,"Domestic Format:
+Line 1: Recipient
+Line 2: Street name + number
+Line 3: Postcode + Town
+
+International Format (to Greece):
+Line 1: Recipient
+Line 2: Street name + number
+Line 3: COUNTRY CODE-Postcode, Town
+Line 4: Country","Domestic Example:
+Petros Pavlou
+Doiranis 25
+653 02 Kavala
+
+---
+
+International Example:
+Apostolis Apostolou
+Karkisias 6
+GR-111 42 Athina
+Greece","The postcode is a five-digit code. For domestic mail, a single space is placed between the third and fourth digits, and two spaces separate the postcode from the town name, which is written in capital letters. For mail sent from abroad to Greece, the postcode must be preceded by the country prefix 'GR'. The country of delivery (GREECE or GRÈCE) must be written in capital letters on the last line."
+Hong Kong,"An address written in English should begin with the smallest unit and end with the largest: Name of addressee, Flat number, Floor number, Name of building, Street number and street name, Name of district, and finally the region ('Hong Kong'/'Hong Kong Island'/'H. K.', 'Kowloon'/'Kln', or 'New Territories'/'N. T.'). An address written in Chinese should begin with the largest unit and end with the smallest: Region, District, Street name and number, Building name, Floor number, Flat number, and Name of addressee. For mail from overseas, 'Hong Kong' should be added at the end of an English address, and '香港' at the beginning of a Chinese address.","English Example:
+Mr. Jackie Chan
+Flat 25, 12/F, Acacia Building
+150 Kennedy Road
+Wan Chai
+Hong Kong Island
+
+---
+
+Chinese Example:
+香港島
+灣仔
+堅尼地道105號
+雅佳大廈12樓25室
+陳港生先生","Hong Kong does not use any postal codes, though many rural properties have a property identification code (e.g., HKT-12345). The official languages are Chinese and English, and domestic mail can be written in either. While traditional Chinese characters are commonly used, simplified Chinese characters are also understood by postmen."
+Hungary,"The address format is structured as follows: Addressee (name or company name), followed by the City or town, then the Street name and number (including floor/door details) or P.O. Box number, and finally the Postal code. The city/town name precedes the street address.","Kis Zoltán
+Budapest
+Árpád fejedelem útja 82. fszt. 2
+1036","The postal code consists of four digits. Hungarian family names precede given names (e.g., in 'Kis Zoltán', 'Kis' is the family name). A district number might appear after the city/town name. Various abbreviations may be used, such as 'út', 'utca', 'krt.', 'tér' for street types, 'em.' for 'emelet' (floor), 'fszt' for 'földszint' (ground floor), and 'hrsz' for 'helyrajzi szám' (Land Registry number)."
+Iceland,"The format is as follows: Line 1: Name (first name(s), last name, which is usually patronymic). Line 2: Street name and number (street address in the nominative or dative case). Line 3: Complements (e.g., flat number). Line 4: Postal code and Place (municipality, town, or rural area).","Agnes Gísladóttir
+Holtsflöt 4
+íbúð 202 (flat 202)
+300 Akranes","There is a list of postal codes available for Iceland. The complement line, for example 'íbúð 202', specifies the flat number."
+India,"Name
+Door–Street Number
+{Or Flat No.–Block Code: (If Have Any), Apartment Name: (If Have Any)}
+Locality
+Road / Street / Avenue Name
+City
+PIN
+Country: INDIA
+Mobile No.: +91 XXXXXXXXXX","Mr. Naveen Patnaik
+016-46N,
+Aerodrome Area,
+Mango Tree Road,
+Bhubaneswar, 751020
+INDIA
+Mobile No.: +91 XXXXXXXXXX","PIN stands for Postal Index Number. Mobile No. must contain the recipient's 10-digit contact number, excluding the country code +91."
+Indonesia,"The address format is structured by address type (Residential or Business). The general format is: Recipient's name (can include salutation, position, and department for business), Company name (for business), Street name [Jl.] and number [No.] OR Housing complex/apartment name and number OR PO Box details, Neighborhood/community association [RT./RW.], Village/subdistrict [Desa/Kel.], District [Kec.], City/regency [Kota/Kab.], and Postal code. The Province [Prov.] is optional.","Budiman
+Jl. Surya No. 10 RT.05/RW.02
+Kel. Cempaka Putih, Kec. Cempaka Baru
+Kota Jakarta Pusat 10640
+---
+Hendro Agiman
+Perumahan Citra Harmoni Cluster Green Valley Blok A No. 6
+Kel. Karang Satria Kec. Tambun Selatan
+Kab. Bekasi 17510
+---
+Ibu Ani Wibowo
+Kepala Departemen Personalia
+PT Maju Jaya Abadi
+Jl. Pahlawan Revolusi No. 28A
+Kel. Cipete Utara, Kec. Kebayoran Baru
+Kota Jakarta Selatan 12150
+---
+Bapak Heru Satyanto
+Kepala Departemen Pemasaran
+PT. Sejahtera Makmur
+PO Box 1234 JKS
+Jakarta 10001","The term 'Jalan' or its abbreviation 'Jl.' means 'street' and should be written before the street name. The province is an optional component of the address. Common abbreviations include: Jl. (Street), No. (Number), RT./RW. (Neighborhood/Community Association), Desa/Kel. (Village/Subdistrict), Kec. (District), Kota/Kab. (City/Regency), and Prov. (Province). For business addresses, salutations like 'Ibu' (Mrs./Ms.) or 'Bapak' (Mr.) are used. PO Box addresses include a number and a code for the post office branch."
+Iran,"Iran has 4 types of standard address formats:
+1. Urban: Urban Locality, Street, Premise, Province, Postcode
+2. Rural: Rural Locality, Street, Premise, Province, Postcode
+3. PO Box: Locality, Province, PO Box
+4. Post Restante: Restante, Locality, Province, Post Office",,The addressing standard is registered and qualified by the Universal Postal Union (UPU).
+Iraq,"The address format is: Name of Addressee, Name of the District, Mahla (Area) + Number, Zuqaq (Alley) + Number, Building number, Name of Province, Postal code, Country.","Ali Hassan
+Al-Mansour
+Mahla 609
+Zuqaq 8
+House no. 12
+Baghdad
+10013
+Iraq",
+Ireland,"The address format consists of the Addressee's Name, Number or name of the house and street name/townland, and the POST TOWN. For Dublin addresses, a postal district number is included. For addresses outside Dublin, the County name is added where required. The Eircode is appended to the bottom. Rural addresses are specified by county, nearest post town, and townland. Urban addresses are specified by county, city or town name, street name, and house number (or house name).","Example Dublin:
+The Shelbourne Hotel
+27 St Stephen's Green
+Dublin
+D02 H529
+
+---
+
+Example outside Dublin:
+Lissadell House
+Lissadell
+Ballinfull
+Co. Sligo
+F91 ED70","In July 2015, the Republic of Ireland introduced Eircodes, a seven-digit alphanumeric code consisting of a 3-character routing key and a 4-character unique identifier for the property (e.g., A65 F4E2). Until the introduction of Eircodes, Dublin was the only county with postal district identifiers; these have been incorporated into the Eircode scheme (e.g., Dublin 2 is routing code D02)."
+Israel,"The address format consists of three lines: Name, Street Address, and Postal Code + Town. For apartment buildings, the building number and apartment number should be separated by a '/'. For addresses with a building entrance and apartment number, the format can be 'number incl. entrance + Street name, + apartment' or 'number incl. entrance/apartment + Street name'.","Yisrael Yisraeli
+16 Jaffa Street
+9414219 Tel Aviv
+---
+Yisrael Yisraeli
+16/20 Jaffa Street
+9414219 Tel Aviv
+---
+Yisrael Yisraeli
+1 B HaDoar, Apt. 20
+9414219 Tel Aiv
+---
+Yisrael Yisraeli
+1B/20 HaDoar
+9414219 Tel Aviv, ISRAEL","A seven-digit postal code was introduced in 2013. This code can cover an entire locality for a small town or village. In larger cities, postal areas are divided by streets and neighborhoods."
+Italy,"A domestic address in Italy is composed of three to five rows, with up to six rows for international mail. The general format is: Line 1: Addressee's name and surname or company name. Line 2 (Optional): Additional information about the addressee. Line 3 (If required): Additional information about the building (building number, floor, apartment number). Line 4: Street name and number (e.g., via, viale, corso, piazza). Line 5: Postcode + Town + Province abbreviation. Line 6 (International): Foreign State name. For Post Office Box addresses, the format is: Line 1: Recipient Name. Line 2: Name of delivery post office. Line 3: Post office box number. Line 4: Postcode + Town + Province abbreviation.","Claudio Verdi
+Via Roma 35
+81055 Santa Maria Capua Vetere CE
+
+---
+
+Claudio Verdi
+Ufficio Roma Trullo
+CASELLA POSTALE 14123
+00149 Roma RM",The ordering of the address lines may not be changed. The province is indicated by a two-letter abbreviation after the town name.
+Japan,"There are two primary formats. The Japanese format starts with the largest geographical division and proceeds to the smallest, ending with the recipient's name. The order is: Country, Prefecture, Town, chōme, banchi, building number, building name, floor number, and addressee. The Western order, written in the Latin alphabet, starts with the smallest unit and ends with the largest: Recipient, secondary unit, sub-municipal level, municipal/prefecture names, postal code, and country.","Japanese Format:
+〒112-0001
+東京都文京区白山4丁目3番2号
+3階B号室
+田中花子 様
+
+Romanized (Japanese Order):
+〒112-0001
+Tōkyō-to, Bunkyō-ku, Hakusan-4-chōme, 3-ban, 2-gō,
+3-kai, B-gōshitsu
+Tanaka Hanako sama
+
+English (Western Order):
+Ms. Hanako Tanaka
+3rd Fl. Rm. B
+4-3-2 Hakusan
+Bunkyō-ku, Tōkyō 112–0001
+(Japan)","The postal code is prefixed with the symbol 〒 and has a 'NNN-NNNN' format. It is common to add an honorific to the recipient's name, such as 様 (sama) for an individual or 御中 (onchū) for a company. Japanese-style envelopes are vertical, with the address written top-to-bottom, right-to-left. Western-style envelopes are horizontal. Macrons (e.g., ō, ū) in Romanized addresses may be omitted."
+Latvia,"There are two main address formats: Rural and Urban. Each address element should be on a separate line, starting with the most detailed.
+
+Rural Area Format:
+1. Addressee Name
+2. Street Name, House Number, Flat Number or House Name
+3. Village (if applicable)
+4. Parish (if applicable)
+5. Amalgamated Municipality
+6. Postal Code
+
+Urban Area Format:
+1. Addressee Name
+2. Street Name, House Number, Flat Number
+3. City or Town
+4. Amalgamated Municipality (if applicable)
+5. Postal Code","Rural Area Example:
+Andris Lapa
+Liepu iela 1
+Ērberģe
+Mazzalves pag.
+Neretas nov.
+LV-5133
+
+---
+
+Urban Area Example:
+Andris Lapa
+Jelgavas iela 1–12
+Aizpute
+Aizputes nov.
+LV-3456","The addressee's name is not mandatory. In Latvian, the name should be in the dative case (e.g., Andrim Liepam). Official salutations like 'A.god.' (for a man) or 'Ļ.cien.' (for a man or woman) can be used. The house and flat number are separated by a hyphen. It is acceptable to abbreviate parish as 'pag.' and amalgamated municipality as 'nov.'. The postal code format is two capital letters (LV) and four digits, separated by a hyphen. For international mail, the destination country must be indicated in block letters. Further reference: Latvijas Pasts."
+Macao,"For domestic mail, the address can be in Portuguese or Chinese. The Portuguese format starts with the street name and ends with the area: Name of addressee, Street name, Street number, Name of building, Floor number, Flat number, Area (Península de Macau / Taipa / Coloane / Cotai). The Chinese format starts with the largest unit (area) and ends with the smallest (addressee): Area (澳門半島 / 氹仔 / 路環 / 路氹), Street name, Street number, Name of building, Floor number, Flat number, Name of addressee.","Portuguese Example:
+Sr. João Kuok
+Rua de Macau, n.o 1, Edifício ABC, 2 andar, moradia C,
+Península de Macau
+
+---
+
+Chinese Example:
+澳門半島
+澳門街1號
+ABC大廈2樓C室
+郭若昂先生","Macau does not use any postal codes. For mail to Macau from overseas, 'Macau' should be added at the end of an address written in Portuguese, 'Macao' at the end of an address written in English, and '澳門' at the beginning of an address written in Chinese. While traditional Chinese characters are commonly used, simplified Chinese characters are also understood by postmen."
+Malaysia,"Pos Malaysia recommends different formats for residential, business, and P.O. Box addresses. 
+Residential: Salutation, Name of recipient, Unit number, Street name, Residential area, Postcode, Post office/Mail centre, State (optional), Country. 
+Business: Salutation, Name of recipient, Name of Position & Department (if applicable), Company name, Unit/Lot number, Building name/Commercial area, Lot number (for building), Street name, Postcode, Post office/Mail centre, State (optional), Country. 
+Business + P.O. Box: Salutation, Name of recipient, Name of Position & Department (if applicable), Company name, Unit/Lot number, Building name/Commercial area, Lot number (for building), Street name, Postcode, Post office/Mail centre, P.O. Box number, Postcode of P.O. Box, Post office/Mail centre of P.O. Box, Country.","Residential Example:
+Mr. Zack Ahmad
+11 Jalan Budi 1
+Taman Budiman
+42700
+BANTING
+SELANGOR
+MALAYSIA
+
+---
+
+Business Example:
+Dato' S.M. Nasrudin
+Managing Director
+Capital Shipping Bhd.
+Lot 323, 1st Floor, Bintang Commercial Centre
+29 Jalan Sekilau
+81300
+JOHOR BAHRU
+JOHOR
+MALAYSIA
+
+---
+
+Business + Post Office Box Example:
+Ms. Jenny Chan
+COO
+Target Insurance Brokers
+Level 2, Principal Towers
+11 Jalan Sultan Ismail
+50250
+KUALA LUMPUR
+P.O. BOX 10073
+50704
+KUALA LUMPUR
+MALAYSIA","The country line 'MALAYSIA' is omitted when mailing from within Malaysia. The State line is strictly optional. The Post office/Mail centre field is the name of the town/city whose post office jurisdiction covers the address and should be written in block letters. The postcode is always a 5-digit format. Pos Malaysia allows P.O. Box usage for both residential and business addresses. When a P.O. Box is used, its postcode and post office/mail centre must be on the last line of the address. If both the original and P.O. Box postcodes are present, mail will be sent to the P.O. Box on the first attempt."
+Mexico,"The address format varies by type (Personal, Business, etc.). The general structure for a personal address is: Recipient's Name, Street Type and Name + Number, Settlement Type and Name, Postal Code + Locality (Optional), Municipality, Federal Entity. Business addresses may include the company name and an optional department/position. PO Box (Apartado Postal), Lista de Correos, or Poste Restante formats include the delivery method and postal administration details.","Personal:
+Alejandro Ramírez
+C. Francisco I. Madero No. 115
+Col. Nuevo Casas Grandes Centro
+31700 Nuevo Casas Grandes, Chih.
+
+---
+
+Business:
+Ing. Juan Rodríguez Altamirano
+Farmacéutica Altamirano
+Av. Durango No. 264 Int. 1
+Col. Primer Cuadro
+81200 Los Mochis, Ahome, Sin.
+
+---
+
+Apartado Postal:
+Daniel González Ortiz
+Apartado Postal A44
+Administración Postal
+Calvillo
+20801 Calvillo, Ags.
+
+---
+
+Lista de Correos:
+Esteban Martínez Hernández
+Lista de Correos
+Administración Postal
+Esperanza
+85211 Cajeme, Son.
+
+---
+
+Poste Restante:
+Esperanza Rodríguez Domínguez
+Poste Restante
+Administración Postal
+Bermejillo
+35231 Mapimí, Dgo.","The formats are recommended by Correos de México. The 'Locality' is an optional component in the last line of the address. For business addresses, including the recipient's department or position is also optional. The text provides distinct formats for 'Apartado Postal' (PO Box), 'Lista de Correos', and 'Poste Restante'."
+Netherlands,"The address is formatted as follows: Name, optional Businesspark name, Street + number or Postbus (P.O.Box number), Postal code + town, and an optional Country line.","Jan Jansen
+Boschdijk 1092
+5627 BX EINDHOVEN
+NETHERLANDS","The postal code is a unique street identifier, consisting of four numbers followed by a space and two capital letters. PostNL recommends putting two spaces between the postal code and the town, and writing the town name in capitals. A shortened format using only the postal code and the number (e.g., '5627 BX 1092') is also acceptable. The street name line can be replaced with a PO box ('postbus') or a freepost number ('antwoordnummer'), which have their own postal codes."
+New Zealand,"Recipient name
+Flat number/House number Street address
+or
+PO Box number
+Suburb
+or
+RD Number
+or
+PO Box lobby name (if not the same as the town/city)
+Town/City Postcode","Mr John Smith
+43 Vogel Street
+Roslyn
+Palmerston North 4414","No space or full stops should be used between P and O in PO Box or R and D in RD. Use only one space between the town/city and the postcode. For the Wellington metropolitan area, users should use the specific city name (i.e. Wellington, Lower Hutt, Upper Hutt, Porirua), not the metropolitan area name. An anomaly is the Wellington Mail Centre, which is addressed as 'Wellington Mail Centre, Lower Hutt 5045'."
+Norway,The address is formatted in three lines. Line 1: Recipient (Person or Entity). Line 2: Street Name + Number. Line 3: Postal Code + Postal Town. The recipient's name must be on the mailbox for delivery. Flat or floor numbers are not part of the official postal address.,"Kari Normann
+Storgata 81A
+6415 Molde","The postal code is mandatory and always consists of four digits. If a PO box is used (e.g., Postboks 250 Sentrum), it replaces the 'Street name + Number' line. PO box addresses have postal codes that differ from those for street addresses. For areas without street names, a local designation determined by the Norwegian postal service replaces the street address line."
+Oman,"The address format is: Name, Street number + house number, Block number, Area, City.","Name
+Way 2259, 2919
+Block 222
+Murtafaat Al Qurm
+Muscat","Physical addresses only exist in major urban centers like those of Greater Muscat, Sohar, Salalah, Sur and Nizwa."
+Pakistan,"Name
+Street Number, Street Name
+Union Council, Town
+CITY NAME
+District Name
+Postal Code (PIN)
+Province","Muhammad Abdullah Umar
+15, M. A. Jinnah Road
+Kharadar, Saddar
+Karachi
+Karachi District
+457700
+Sindh",The postal code is also referred to as PIN.
+Peru,"There are two primary address formats. For the Metropolitan Area of Lima and Callao, the format is: Name, Street name and number, Apartment (if needed), District, Postal code. For the rest of the country, the format is: Name, Street name and number, Apartment (if needed), District, City (province).","Roberto Prada
+Juan de Aliaga 230
+Dpto 12
+Magdalena del Mar
+Lima 17
+
+---
+
+Camilo Rada
+Av. del Ejército 450
+Dpto 5
+Yanahuara
+Arequipa","The address format differs between the Metropolitan Area of Lima and Callao and the rest of the country. Addresses in Lima and Callao include a postal code, while addresses elsewhere use the city (province) name on the last line."
+Philippines,"The Philippines follows Western addressing conventions. The format varies based on the origin and destination of the mail.
+
+Format within Metro Manila:
+Addressee
+Street number Street name
+Barangay / Administrative district
+ZIP Code City (in capitals)
+
+Format from outside Metro Manila to Metro Manila:
+Addressee
+Street Number, Street Name
+Barangay/Administrative district, City/Municipality
+Postcode METRO MANILA
+
+Format to provinces:
+Addressee
+Street number Street name
+Barangay/Administrative district, City/Municipality
+Postcode Name of Province (in capitals)
+
+Format to a residential area (subdivision, purok/sitio):
+House number, Street name, Subdivision/Residential area
+Barangay/Administrative district, City/Municipality
+Postcode Metro Manila/Province name (in capitals)","Mr. Juan Dela Cruz
+123 Rizal Ave., Santa Cruz
+1014 MANILA
+---
+Mr. Juan Maliksi
+121 Epifanio Delos Santos Ave., Wack-wack Greenhills, Mandaluyong
+1550 METRO MANILA
+---
+Mr. Joel Magalang
+23 MacArthur Hwy., San Matias, Santo Tomas
+2020 PAMPANGA
+---
+Ms. Joanna Dela Cruz
+B11-L20 Genesis St., San Lorenzo South Subdivision
+Malitlit, Santa Rosa
+4026 LAGUNA
+---
+Mr. Juan Galang
+10 Saint John St., Purok 7
+San Nicolas 1st, Guagua
+2003 PAMPANGA","The city name (for Metro Manila) or the province name should be written in all capital letters on the last line, following the ZIP code. Addresses for residential areas can include details like a subdivision name or smaller territorial units such as a 'purok' or 'sitio'. House numbers in subdivisions are often formatted as Block and Lot numbers (e.g., B11-L20)."
+Poland,"The address is generally formatted as follows:
+Line 1: First name & surname of addressee and/or company name & department
+Line 2: Street information, which can be 'ul. Street name + house number / flat number', 'al. Avenuename + house number / flat number', 'pl. Squarename + house number / flat number', or for small towns/villages, 'Village name + house number'. The abbreviation 'm.' (mieszkanie) can be used instead of '/' before the flat number.
+Line 3: Postal code + City or town
+Line 4: Country name (optional)
+For a PO box, the format is: Name, 'skrytka pocztowa nr [box number]', 'Postal code + CITY [post office number]'.","Example:
+Jan Kowalski
+ul. Wiejska 4/6
+00-902 WARSZAWA
+POLAND (POLSKA)
+
+---
+
+Example (PO box):
+Jan Kowalski
+skrytka pocztowa nr 266
+60-700 POZNAŃ 2","The postal code always consists of five digits separated by a hyphen in the 'XX-XXX' format. The name after the postal code is the locality of the addressee, not their post office. There is a strong recommendation to use all caps for the line containing the postal code and city. Common abbreviations include 'ul.' (Street), 'al.' (Avenue), and 'pl.' (Square). For PO boxes, 'skr. poczt.' can be used. Some building numbers can be complex (e.g., '3/5/7') if the building occupies multiple plots, which can make a number like '4/6' ambiguous without local knowledge."
+Portugal,"The address structure consists of four lines: Addressee, Street name + Street number + door/floor information, Postal code + Town, and Country. The street name and number are traditionally separated by a comma, but a blank space is now recommended. The floor number is indicated by 'º', often followed by 'Esq.' (Left), 'Dir.' (Right), or an apartment letter. PO Boxes are written as 'Apartado' followed by a number.","José Saramago
+Rua da Liberdade, 34, 2º Esq.
+4000-000 Porto
+Portugal
+
+---
+
+José Saramago
+Rua da Liberdade 34  2 Esq
+4000-000 Porto
+Portugal
+
+---
+
+José Saramago
+Apartado 1234
+4000-000 Porto
+Portugal",Postal codes have the format NNNN-NNN. The postal service (CTT) recommends using a blank space instead of a comma between the street name and number to avoid OCR mistakes. 'Esq.' is an abbreviation for 'Esquerdo' (Left) and 'Dir.' is an abbreviation for 'Direito' (Right). PO Boxes are called 'Apartado'.
+Qatar,"The recommended address format consists of four lines: Name of addressee, P.O. Box number, Name of town, and Country.","Mr. Ali Al-Matwi
+P.O. Box 1714
+Doha
+Qatar",Q-Post does not deliver to street addresses because not all roads and buildings are numbered. No postal codes are used in Qatar.
+Romania,"The address is generally formatted as follows, with each component on a new line or grouped logically:
+1. Addressee and/or company name & department
+2. Street line: Street Type + Street Name + 'nr.' (street number) + Number
+3. Building/Apartment line: 'bl.' (building) + Building number + 'sc.' (entrance) + Entrance number/letter + 'et.' (floor number) + Floor number + 'ap.' (apartment number) + Number
+4. Locality line: City/village + 'jud.' (county) / 'sector' (for Bucharest) + County name/sector number + Postal code
+5. Country name (optional)","Mihail Ionescu
+str. Pacienței, nr. 9
+bl. U13A, sc. M
+et. 7, ap. 96
+Victoria, jud. Brașov, 505722
+România
+
+---
+
+Gheorghe Codreanu
+str. Virtuții, nr. 44
+București, sector 6, 313988
+România","For addresses in Bucharest, 'sector' is used instead of 'jud.' (county). According to the National agency for cadastral and real estate publicity (ANCPI), there are 29 official street types. Common abbreviations for these street types include: Al. (Alee), Bd. (Bulevard), Intr. (Intrare), Prel. (Prelungire), Șos. (Șosea), Spl. (Splai), Str. (Stradă), and Var. (Variantă)."
+Russia,"The address is written from most specific to general, in either Cyrillic or Latin alphabet. The structure is: 1. Name of addressee, 2. Street name, building number (д. or d.), apartment/room (кв. or kv.), 3. City/town/village (пос. or pos.), 4. Raion (Sub-region) (р-н or r-n), 5. Oblast (region) (обл. or obl.), 6. Postal code, 7. Country.","Cyrillic example:
+Гусев Иван Сергеевич
+ул. Победы, д. 20, кв. 29
+пос. Октябрьский
+Борский р-н
+Нижегородская обл.
+606480
+Россия
+
+Latin example:
+Gusev, Ivan Sergeyevich
+ul. Pobedy, d. 20, kv. 29
+pos. Oktyabrskiy
+Borskiy r-n
+Nizhegorodskaya obl.
+606480
+RUSSIA","The sub-region (Raion) and region (Oblast) names are omitted if the city is Moscow, Saint Petersburg, or a sub-region administrative center. For buildings without a named street, different formats are used. In older areas, subsidiary buildings are designated with 'str.' (строение), e.g., 'ul. Lenina, d. 123, str. 2'. In newer areas, Cyrillic letters are appended to the building number, like '123-а'. In microraion neighborhoods, the microraion's name or number can replace the street name, e.g., '4-th microrayon, d. 123, kv. 56'."
+Saudi Arabia,"The address format is structured as follows: Addressee on the first line, followed by Building Number + Street Name + Neighbourhood (if applicable) on the second line, then City + Postal code + Additional Numbers on the third line, and finally 'Kingdom of Saudi Arabia' on the last line.","Mohammed Ali Al-Ahmed
+8228 Imam Ali Road – Alsalam Neighbourhood
+Riyadh 12345-6789
+Kingdom of Saudi Arabia",The address can be written in either Arabic or English. The postal code is followed by a hyphen and four 'Additional Numbers'.
+Serbia,"The address format consists of the following lines in order: Addressee, Street name + Number, Postal code + Town. The Country name is added as a final line if mailing from a country other than Serbia.","Petar Petrović
+Krunska 5
+11000 Beograd","In addition to the 5-digit postal code, another line can be added containing PAK, a six-digit number which encodes the town, street and house number section."
+Singapore,"The recommended format includes: Name of addressee, followed by street information. For landed properties, this is 'Street number and name'. For high-rise buildings, it includes 'Block number and street name' on one line and 'Floor – Apartment number + Building name' on the next. The subsequent line is 'Name of town + Postcode'.","Ms. Tan Bee Soo
+16 Sandilands Road
+SINGAPORE 546080
+SINGAPORE
+
+---
+
+Mr. M. Rajendran
+Blk 35 Mandalay Road
+# 13–37 Mandalay Towers
+SINGAPORE 308215
+SINGAPORE","Generally, the last line 'SINGAPORE' is omitted when posting within the country. Addresses are usually written in the English language."
+Slovakia,"The address format consists of the following lines: 
+1. Addressee (Name or Company)
+2. Company or Department or Landlord (if applicable)
+3. Street name + number
+4. Postal code + Town
+5. COUNTRY (if sent abroad)","Jozef Vymyslený
+Firma s.r.o.
+Nezábudková 3084/25
+84545 Bratislava
+Slovensko","Postal codes are in the format '### ##'. Street numbers can be orientation numbers (related to the street), descriptive numbers (unique within the town), or a combination separated by a slash (descriptive/orientation). Descriptive numbers are also used in small villages without named streets. If a delivery is for a specific person at a company, their name should be on the first line, followed by the company name. For more details, see the official postal service guide: http://www.posta.sk/potrebujem/spravne-napisat-adresu."
+Slovenia,"The address format depends on the type.
+Street Address: Consists of the optional Company name and/or Recipient's name, followed by the Street and number on the next line, and finally the Postcode and Post town on the last line.
+Locality Address (for places with unnamed streets): Consists of the optional Company name and/or Recipient's name, followed by the Location (village, hamlet, etc.) and number on the next line, and the Postcode and Post town on the last line.
+PO Box Address (poštni predal): Consists of the optional Company name and/or Recipient's name, followed by 'p. p. + number' on the next line, and the Postcode and Post town on the last line.
+Special Postcode Holders: Consists of the Company name on the first line and the special Postcode and Post town on the second line.
+Poste Restante: Consists of the Recipient's name, followed by 'POŠTNO LEŽEČE' on the next line, and the Postcode and Post town on the last line.","Street address:
+Cvet, d. o. o.
+G. Janez Novak
+Slovenska cesta 64 A
+2241 Spodnji Duplek
+---
+Locality address:
+Juha, s. p.
+Ga. Angela Kovač
+Pleterje 489
+22324 Kidričevo
+---
+PO Box address:
+Vino, d. d.
+Gdč. Marija Repar
+p. p. 12
+1234 Mengeš
+---
+Special postcode holders:
+Nova Ljubljanska banka
+1520 Ljubljana
+---
+Poste restante:
+G. Peter Šilj
+POŠTNO LEŽEČE
+4270 Jesenice","Slovenia uses a four-digit postal number where the first digit indicates the region (e.g., 1xxx for Ljubljana, 2xxx for Maribor). Simpler codes represent larger localities (e.g., 1000 Ljubljana). Some cities have multiple postcodes (e.g., Ljubljana has 1101-1133), but using the general code is acceptable. Special postcodes are assigned to PO Boxes in larger towns (xxx1 format) and to large companies that receive a high volume of mail (x5xx format). House numbers can have a letter suffix (A, B, C). Common abbreviations include: g. (Mr), ga. (Mrs), gdč. (Miss), c. (cesta/Street), and ul. (ulica/Road)."
+South Korea,"South Korean addresses can be written in two main formats. The Korean order format starts with the largest division and ends with the smallest, followed by the recipient and postal code. The structure is: Country Name, Provincial/Metropolitan Division, County/District Subdivision, Street Name and Number, Secondary Unit, Recipient, Postal Code. The Western order format starts with the recipient and the smallest address unit. The structure is: Recipient, Secondary Unit, Street Name and Number, City/Province and Postal Code, Country Name. Address components are typically ordered from largest to smallest geographical unit: Provincial-level division (e.g., Seoul-teukbyeolsi), County- or district-level subdivision (e.g., Jongno-gu), Street name and number (e.g., Sajik-ro 9-gil 23), and Secondary unit (e.g., 102-dong 304-ho).","Korean Order (Romanized):
+(Daehan-minguk)
+Seoul-teukbyeolsi, Jongno-gu, Sajik-ro 9-gil 23,
+102-dong 304-ho
+Hong Gil-dong gwiha
+30174
+
+---
+
+English, Western Order:
+Mr. Gil-dong Hong
+Apt. 102–304
+23 Sajik-ro 9-gil
+Jongno-gu, Seoul 30174
+(South Korea)
+
+---
+
+English, Alternative Western Order:
+Mr. Gil-dong Hong
+Bldg. 102 Unit 304
+23 Sajik-ro 9-gil
+Jongno-gu, Seoul 30174
+(South Korea)","South Korea uses a 5-digit postal code. The current addressing system is similar to Western addressing, though a previous system was similar to Japanese addressing. When writing in Korean order, addresses start with the largest unit (country, province). Common secondary unit designators include 'dong' (동) for building and 'ho' (호) for apartment/unit number. The term 'gwiha' (귀하) is a polite suffix added after the recipient's name. Anglicized versions of administrative divisions are common in English addresses (e.g., 'Seoul (Special City)' for 'Seoul-teukbyeolsi', 'Jongno (District)' for 'Jongno-gu')."
+Spain,"The address is structured as follows:
+Line 1: Recipient name
+Line 2: Street type, name, number, storey and door
+Line 3: Postal code and city
+Line 4: Province","Sr. Francisco Ansó García
+Paseo de la Castellana, 185, 5º B
+29001 Madrid
+Madrid
+
+---
+
+Dña. Antonia Fernandez Garcia
+Av. de las Delicias, 14, 1º Dcha.
+29001 Madrid
+Madrid","Storey and door information: '5ºB' means 5th floor (quinto), door B. A door number can be printed as '1ª' (primera-first). The suffixes 'o' and 'a' derive from the Spanish words 'piso' (floor, masculine) and 'puerta' (door, feminine). Doors may also be indicated with abbreviations like 'Izq.' (Izquierda - left) or 'Dcha.' (Derecha - right). Streets and avenues can be indicated with the abbreviations 'C.' (for calle) and 'Av.' (for avenida)."
+Sri Lanka,"The recommended format is: Name of addressee, Street number and name, Name of town, Postcode, Country.","Mr. A. L. Perera
+201 Silkhouse Street
+KANDY
+20000
+SRI LANKA",Sri Lanka uses a five-digit postal code. The country name is generally omitted when posting within the country. Addresses are usually written in English and Sinhala.
+Sweden,"A Swedish address consists of a location address (belägenhetsadress), postal code, and post town. The location address includes an address area (street or village name, sometimes followed by a farm name) and an address place (a number, possibly with a letter suffix). The general format is: Addressee, Location Address (e.g., Street name + number), and Postal code + Post town. For apartments, a four-digit apartment number is added.","Urban:
+Anna Björklund
+Storgatan 1
+112 01 Stockholm
+SWEDEN
+
+Urban with apartment number:
+Johan Persson
+Koppargränd 2 lgh 1105
+331 51 Ösund
+SWEDEN
+
+Rural with farm name:
+Sven Nilsson
+Lillbyn Sörgården 2A
+345 67 Storbyn
+SWEDEN
+
+PO box:
+Postbolagen AB
+Box 1121
+111 81 Stockholm
+SWEDEN","The postal code is a five-digit number. The prefix 'SE' (ISO-code for Sweden) is used only if the mail is sent from abroad. If multiple residences share a location address, each has a four-digit apartment number (e.g., lgh 1105), which is part of the address but is sometimes omitted."
+Switzerland,"The address is generally formatted as follows: Salutation, Recipient name, Street name and number, Postal code, city and (if needed) canton, Country (if sent abroad).","Example (German):
+Herrn
+Rudolf Weber
+Marktplatz 1
+4051 Basel
+Switzerland
+
+---
+
+Example (German with canton):
+Frau
+Claudia Weber
+Solothurnerstrasse 28
+2544 Bettlach SO
+Switzerland
+
+---
+
+Example (French):
+Monsieur
+Pierre Dupont
+Rue Pépinet 10
+1003 Lausanne
+Switzerland
+
+---
+
+Example (French with canton):
+Madame
+Sophie Dupont
+Rue du Marché 8
+1556 Cerniaz VD
+Switzerland","The canton abbreviation (e.g., SO, VD) is needed only for cities/towns that have the same name but are in different cantons. For example, Renens is often mentioned as Renens VD to distinguish it from Renan, as both were historically called Renens."
+Taiwan,"There are multiple address formats for Taiwan depending on the context. 
+1. Chinese-language domestic mail (horizontal): Postal Code, County/City, Township/District, Road/Street Name, Building Number, Floor, Name. 
+2. English-language international mail: Name/Company, Floor, Number, Alley, Lane, Road/Street Name, Township and District, County and City, Postal Code, Country. 
+3. Complete address for Department of Household Registration: Floor, Number, Alley, Lane, Road/Street Name, Neighbourhood, Village, Township and District, County and City.","Chinese-language domestic mail (horizontal): 11060 台北市信義區市府路2號2樓 王小明收
+
+English-language international mail: Mr. Wang, 2F., No.2, Shifu Rd., Xinyi Dist., Taipei City 11060, Taiwan
+
+Complete address for Department of Household Registration: 2F., No.2, Shifu Rd., Neighbourhood 8, Xicun Vil., Xinyi Dist., Taipei City, Taiwan","Addresses are regulated by the Department of Household Registration, while mail is handled by Chunghwa Post, resulting in different required formats for different situations. The address format for the Department of Household Registration is more detailed, including 'Neighbourhood' and 'Village' information."
+Thailand,"Name Surname
+House (building) number / Flat number
+Sub-District, District
+Province
+Postal code
+Country","Mr. Siam Rakchart
+238/54 Phaithong Village
+Bang Yai, Bang Yai
+Nonthaburi
+11140
+Thailand",
+Türkiye,"The address is structured as follows:
+1. Natural person
+2. Organisation and department or position (both optional)
+3. Neighbourhood or village
+4. Street name (if applicable)
+5. Building name (if applicable)
+6. Building number
+7. Floor number (optional)
+8. Flat number (if applicable)
+9. Postal code + Town (if applicable) + District (if applicable) + Province
+10. Country (for international mail)","AHMET KORKMAZ
+ETİLER MAH.
+BADEM SOK. TOPRAK APT. NO:13 K:4 D:8
+34732 BEŞİKTAŞ / İSTANBUL
+TURKEY","Optional components include: Organisation and department or position, and Floor number. Components to be included if applicable are: Street name, Building name, Flat number, Town, and District. The country name is required for international mail."
+Ukraine,"The address format is structured as follows, in order: Name of addressee, Street name with building/apartment number, Village/city/town, Raion (district) and Oblast (region), 5-digit postal code, and Country name (Україна or UKRAINE).","Cyrillic example:
+Петренко Іван Леонідович
+вул. Шевченка, буд. 17
+м. Біла Церква
+Київська обл.
+09117
+Україна
+
+---
+
+Latin example:
+Petrenko Ivan Leonidovych
+vul. Shevchenka, bud. 17
+m. Bila Tserkva
+Kyivs'ka obl.
+09117
+UKRAINE","For apartment buildings not on a named street, special formats are used. A subsidiary building behind a main one is noted with 'bud.' (будинок), e.g., 'vul. Bandery, d. 123, bud. 2'. In newer areas, Cyrillic letters are appended to building numbers (e.g., 123-а, 123-б). In 'microraion' neighborhoods, the microraion name or number can replace the street name, e.g., '4-th microrayon, bud. 123, kv. 56'."
+United Arab Emirates,"The recommended format includes four lines: Name of addressee, P.O. Box number, Name of the Emirate, and Country.","Mr. Ali Al-Matwi
+P.O. Box 1714
+Dubai
+United Arab Emirates (UAE)","No postal codes are used in the United Arab Emirates. All mail is delivered only to PO boxes. Since roads and buildings are not consistently numbered, it is customary to include the recipient's telephone number for street address deliveries so the driver can make contact if needed."
+United Kingdom,"The address format specified by Royal Mail is as follows: Addressee's name, followed by Number supplement and street name, then an optional Locality, followed by the POST TOWN, and finally the POSTCODE. The post town and postcode should each be on a separate line.","Mr A Smith
+3a High Street
+Hedge End
+SOUTHAMPTON
+SO31 4NG","The locality is only required where its absence would cause ambiguity, for example, where a post town includes two streets with the same name. Royal Mail specifies that post towns should be written in block capitals. Royal Mail discourages using commas at the end of lines and indenting/staggering lines; all lines should start from the same point. The postcode's first half (outward code) contains the postcode area and district, while the second half (inward code) contains the postcode sector and unit."
+United States,"The general format consists of three lines: 1. Name of addressee. 2. House number and street name, plus an apartment/suite/room number if applicable. 3. Name of the post office (city), state abbreviation, and ZIP code. The USPS-recommended format uses all capital letters and a ZIP+4 code. Mail is delivered to the address line immediately preceding the city, state, and ZIP code line.","Jeremy Martinson Jr.
+455 Larkspur Dr. Apt 23
+Baviera, CA 92908
+---
+JEREMY MARTINSON JR
+455 LARKSPUR DR APT 23
+BAVIERA CA 92908‑4601","The USPS discourages most punctuation, except for the hyphen in ZIP+4 codes and in certain street numbers. Rural addresses may use formats like 'RR 9 BOX 19-1A' (Rural Route) or 'HC 68 BOX 23A' (Highway Contract). Regional variations exist: Queens (NY), Hawaii, and Southern California often use hyphens in street numbers (e.g., '123–45 QUEENS BLVD'). Utah uses a grid system (e.g., '401 West 500 North'). Puerto Rico addresses often include an urbanization name. The city name required by the USPS may not match the actual municipal boundaries (e.g., mail to NYC boroughs must use the borough name, not 'New York City', except for Manhattan). US territories are preferably addressed domestically (e.g., 'San Juan PR 00907'). Military and diplomatic mail use 'APO', 'FPO', or 'DPO' as the city and 'AA', 'AE', or 'AP' as the state."
+Vietnam,"The address format is as follows: Name of addressee (if needed, name of the head of the family), House number and street name, Ward or town, District, City, Province, Country (if sent from abroad).","Vietnamese example:
+Lê Văn Bình (mẹ là Lý Thị Hoa),
+số 123A Trần Hưng Đạo,
+phường Nguyễn Du,
+quận Hai Bà Trưng,
+thành phố Hà Nội
+
+English example:
+Mr Lê Văn Bình (mother is Lý Thị Hoa)
+number 123A Trần Hưng Đạo street,
+Nguyễn Du ward,
+Hai Bà Trưng district,
+Hà Nội city,
+Việt Nam",Name of province is optional for municipalities and provinces which name are the same with their city counterparts.

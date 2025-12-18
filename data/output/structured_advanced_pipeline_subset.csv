@@ -1,0 +1,101 @@
+row_id,Town Name,Postal Code,Remaining Address,Country Code (2 characters)
+0,Brooklyn,11216,"Black Alliance for Just Immigration 660 Nostrand Ave, , N.Y.",US
+1,Brooklyn,11201,"Planned Parenthood, 44 Court St, 6th Floor",US
+2,Brooklyn,11226,"Congresswoman Yvette Clarke 222 Lenox Road, Ste 1 New York",US
+3,Washington,20008,"ACLU DC P.O. Box 11637 , DC United States",US
+4,Jackson Heights Queens,11372,Make the Road New York 92-10 Roosevelt Avenue,US
+5,Bed-Stuy,,"Do the Right Thing Way, , BK",US
+6,,,book stores near me,US
+7,Fort Greene Brooklyn,,theatres in,US
+8,Brooklyn NYC NY,11216,Barboncino 781 Franklin Ave Crown Heights USA,
+9,FT WALTON BEACH,,"103 BEAL PKWY SE, , FL",US
+10,Deltona,,"Canal Rd, FL",US
+11,Oakland,94789,123 Main St # 456 CA,US
+12,Oakland,94789,123 Main St Apt 456 CA,US
+13,Oakland,94789,123 Main St Apt #456 CA,US
+14,Oakland,94789,123 Main St Apt No. 456 CA,US
+15,nyc,,whole foods,US
+16,nyc,,921 83 street,US
+17,,,30 w 26 st,US
+18,,,30 West 26th Street Sixth Floor,US
+19,,,30 W 26th St 6th Fl,US
+20,Stamford,06902,"301 Commons Park S, , CT",US
+21,CLARKSTON,99403,"912-914 8TH ST, , WA",US
+22,Signal Hill,90755,2120 E Hill Street #104 CA,US
+23,CLARKSTON WA,99403,1036-1038 MC CARROLL ST,US
+24,OTHELLO,99344,2455-B W BENCH RD WA,US
+25,Wilbraham,,"473 Boston Rd, , MA",US
+26,MORENO VALLEY,92553-4313,"25050 ALESSANDRO BLVD, STE B, , CA",US
+27,Seattle,98103,"PO Box 1, , WA",US
+28,Seattle,98103,"4411 Stone Way North , King County, WA",US
+29,Rochester,14619,"452 Maxwell Ave, Apt 3A\n, NY",US
+30,Washington DC,20500,1600 Pennsylvania Ave NW,US
+31,Washington D.C,20500,1600 Pennsylvania Ave NW,US
+32,Washington D.C.,20500,1600 Pennsylvania Ave NW,US
+33,Queens,11374,"99-40 63rd Rd, , NY",US
+34,Chehalis,98532-1900,"351 NW North St, , WA",US
+35,Oklahoma City,73106,"2501 N Blackwelder Ave, , Oklahoma",US
+36,Pennsylvania,15705,"1011 South Dr, Indiana",US
+37,Brooklyn,11211,"444 South 5th St Apt. 3A , N.Y.",US
+38,Staten Island,10312,"Atrium Mall, 640 Arthur Kill Rd, , NY",US
+39,Bainbridge Island,98110,"5276 Old Mill Rd NE, , WA",US
+40,Fayetteville,72704,"1400 West Transport Road, , AR",US
+41,Fernandina Beach,32034,"10 Amelia Village Circle, , FL",US
+42,Albertville,35950-2049,"5850 US Highway 431, STE 1, , AL",US
+43,Columbus,, OH,US
+44,San Francisco,,CA,US
+45,SF,,CA,US
+46,Carmel-by-the-Sea,, CA,US
+47,Carmel by the Sea,, CA,US
+48,Manhattan,, NY,US
+49,Manhattan,, KS,US
+50,Brooklyn,, NY,US
+51,Brooklyn,06234, CT,US
+52,Gresham,OR,18312 SE Brooklyn CT,US
+53,Victoria,V8V 2G9,"332 Menzies Street, , BC",CA
+54,Montreal,H3Z 2Y7,123 Main St SE\n QC,CA
+55,Montréal,H3Z 2Y7,123 Main St SE QC,CA
+56,Montréal,,LaSalle QC,CA
+57,Montreal,,LaSalle QC,CA
+58,Kingston,,"237 Old Hope Road, 6, Jamaica W.I",
+59,Kingston,,"16 1/2 Windward Road, 2, Jamaica",
+60,Kingston,,"16½ Windward Road 2 Jamaica, West Indies",
+61,London,EC2A 4RH,"The Book Club 100-106 Leonard St, Shoreditch, , Greater , England, , United Kingdom",GB
+62,London,EC2A 4RH,The Book Club 100-106 Leonard St Shoreditch United Kingdom,GB
+63,London,N3 1LF,"Aston House, Cornwall Avenue, ",GB
+64,London,N1 2XQ,318 Upper Street,GB
+65,London,SW2 4JE,"21, Kingswood Road ",GB
+66,Liverpool,L3 4EN,"1 Riverside Dr , Merseyside",GB
+67,Knutsford,WA16 9EX,"Stocks Ln, , Cheshire East , UK",
+68,London,WC2E 9DD,"Royal Opera House, Bow St, Covent Garden, , , United Kingdom",GB
+69,Middlesbrough,TS4 2HT,"1A Egmont Road, ",GB
+70,Middlesbrough,TS4 2HT,"0 Egmont Road, ",GB
+71,Newbury,RG14 7QS,"-1 Priory Road, ",GB
+72,Hull,HU5 2RD,"Idas Court, 4-6 Princes Road, ",GB
+73,London,EC1N 8QX,"Flat 14, Ziggurat Building, 60-66 Saffron Hill, , , United Kingdom",GB
+74,London,EC1N 8FH,"Flat 18, Da Vinci House, 44 Saffron Hill, , , United Kingdom",GB
+75,South Ockendon,RM15 5EE,"22B Derwent Parade, , United Kingdom",GB
+76,Canterbury,CT2 7EP,"Unit 26 Roper Close, ",GB
+77,Lowestoft,NR32 1HH,"Lorem House, The Marina, , United Kingdom",GB
+78,Bedford,MK42 0XE,"St Johns Centre, Rope Walk, , shire, , United Kingdom",GB
+79,Bedford,MK42 0XE,"St Johns Centre, 8 Rope Walk, , shire, , United Kingdom",GB
+80,Manchester,M1 5QF,"Studio J, 4th Floor,,8 Lower Ormond St, , United Kingdom",GB
+81,,ST6 6BD,"Victoria Institute, The Blvd, , United Kingdom",GB
+82,Eastbourne,BN23 6QD,"29 Lottbridge Drove, , East Sussex",GB
+83,Stoke-on-Trent,, United Kingdom,GB
+84,Loughborough,LE11 5BG,"The Rushes, , Leicestershire , United Kingdom",GB
+85,Loughborough,LE11 1BT,"The Old Manor, 11-12 Sparrow Hill, , United Kingdom",GB
+86,Hinckley,LE10 1RD,"Stockwell Head, , United Kingdom",GB
+87,Eastbourne,BN23 6QD,"Admiral Retail Park Lottbridge Drove, , East Sussex",GB
+88,Bishop Auckland,DL14 7JQ,"12 Newgate Shopping Centre, George St, , Co. Durham",GB
+89,Caerphilly,CF83 1NY,Castle Court Shopping Centre Castle Street,GB
+90,Douglas,IM99 1JJ,"Lloyds Bank International Limited, PO Box 111, Peveril Buildings, Peveril Square, , Isle of Man",
+91,wellington,,new zealand,NZ
+92,Chambéry,,,FR
+93,Chambery,,,FR
+94,Paris,, France,FR
+95,Paris,,,FR
+96,Paris,, FR,FR
+97,Paris,,IXe arrondissement,FR
+98,Paris,,9e arrondissement,FR
+99,Madrid,28014,"Museo del Prado C. de Ruiz de Alarcón, 23 , España",ES
