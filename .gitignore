@@ -1,10 +1,16 @@
-# Environment variables
-.env
-
-# Virtual environments
 .venv/
-venv/
-
-# Python cache
 __pycache__/
 *.pyc
+.env
+.env.*
+.ipynb_checkpoints/
+.DS_Store
+.vscode/
+.idea/
+
+# generated artifacts
+outputs/
+data/workshop/
+
+# optional: if you do NOT want raw source spreadsheets public
+# data/input/*.xlsx
