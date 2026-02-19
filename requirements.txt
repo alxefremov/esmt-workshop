@@ -1,7 +1,7 @@
-pandas==2.3.3
+pandas==2.2.2
 pycountry==24.6.1
-google-genai==1.54.0
+google-genai==1.59.0
 python-dotenv==1.2.1
 tqdm==4.67.1
 openpyxl==3.1.5
-requests==2.32.3
+requests==2.32.4
