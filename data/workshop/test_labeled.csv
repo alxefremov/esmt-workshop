@@ -1,0 +1,31 @@
+record_id,Unstructured Address,Town Name,Postal Code,Country Code (2 characters),Remaining Address (derived)
+80,"St Johns Centre, 8 Rope Walk, Bedford, Bedfordshire, MK42 0XE, United Kingdom",bedford,mk42 0xe,gb,"St Johns Centre, 8 Rope Walk, Bedford, Bedfordshire, MK42 0XE, United Kingdom"
+42,"10 Amelia Village Circle, Fernandina Beach, FL, 32034",fernandina beach,32034,us,"10 Amelia Village Circle, Fernandina Beach, FL"
+59,"237 Old Hope Road, Kingston 6, Jamaica W.I",kingston,6,jm,"237 Old Hope Road, Kingston , Jamaica W.I"
+49,"Manhattan, NY",,,us,"Manhattan, NY"
+99,9e arrondissement Paris,paris,,fr,9e arrondissement Paris
+58,LaSalle Montreal QC,montreal,,ca,LaSalle Montreal QC
+76,"22B Derwent Parade, South Ockendon RM15 5EE, United Kingdom",south ockendon,rm15 5ee,gb,"22B Derwent Parade, South Ockendon RM15 5EE, United Kingdom"
+33,"1600 Pennsylvania Ave NW, Washington D.C. 20500",washington,20500,us,"1600 Pennsylvania Ave NW, Washington D.C."
+95,"Paris, France",paris,,fr,"Paris, France"
+60,"16 1/2 Windward Road, Kingston 2, Jamaica",kingston,2,jm,"16 1/ Windward Road, Kingston , Jamaica"
+64,"Aston House, Cornwall Avenue, London, N3 1LF",london,n3 1lf,gb,"Aston House, Cornwall Avenue, London, N3 1LF"
+85,"The Rushes, Loughborough, Leicestershire LE11 5BG, United Kingdom",loughborough,le11 5bg,gb,"The Rushes, Loughborough, Leicestershire LE11 5BG, United Kingdom"
+38,"444 South 5th St Apt. 3A Brooklyn, N.Y. 11211",,11211,us,"444 South 5th St Apt. 3A Brooklyn, N.Y."
+30,"452 Maxwell Ave, Apt 3A\nRochester, NY 14619",rochester,14619,us,"452 Maxwell Ave, Apt 3A\nRochester, NY"
+2,"Planned Parenthood, 44 Court St, 6th Floor, Brooklyn 11201",,11201,us,"Planned Parenthood, 44 Court St, 6th Floor, Brooklyn"
+53,18312 SE Brooklyn CT Gresham OR,gresham,,us,18312 SE Brooklyn CT Gresham OR
+22,"912-914 8TH ST, CLARKSTON, WA 99403",clarkston,99403,us,"912-914 8TH ST, CLARKSTON, WA"
+3,"Congresswoman Yvette Clarke 222 Lenox Road, Ste 1 Brooklyn New York 11226",,11226,us,"Congresswoman Yvette Clarke 222 Lenox Road, Ste 1 Brooklyn New York"
+24,1036-1038 MC CARROLL ST CLARKSTON WA 99403,clarkston,99403,us,1036-1038 MC CARROLL ST CLARKSTON WA
+88,"Admiral Retail Park Lottbridge Drove, Eastbourne, East Sussex BN23 6QD",eastbourne,bn23 6qd,gb,"Admiral Retail Park Lottbridge Drove, Eastbourne, East Sussex BN23 6QD"
+92,wellington new zealand,wellington,,nz,new zealand
+75,"Flat 18, Da Vinci House, 44 Saffron Hill, London, EC1N 8FH, United Kingdom",london,ec1n 8fh,gb,"Flat 18, Da Vinci House, 44 Saffron Hill, London, EC1N 8FH, United Kingdom"
+87,"Stockwell Head, Hinckley LE10 1RD, United Kingdom",hinckley,le10 1rd,gb,"Stockwell Head, Hinckley LE10 1RD, United Kingdom"
+83,"29 Lottbridge Drove, Eastbourne, East Sussex BN23 6QD",eastbourne,bn23 6qd,gb,"29 Lottbridge Drove, Eastbourne, East Sussex BN23 6QD"
+21,"301 Commons Park S, Stamford, CT 06902",stamford,06902,us,"301 Commons Park S, Stamford, CT"
+61,"16½ Windward Road Kingston 2 Jamaica, West Indies",kingston,2,jm,"16½ Windward Road Kingston Jamaica, West Indies"
+72,"-1 Priory Road, Newbury, RG14 7QS",newbury,rg14 7qs,gb,"-1 Priory Road, Newbury, RG14 7QS"
+15,123 Main St Apt No. 456 Oakland CA 94789,oakland,94789,us,123 Main St Apt No. 456 Oakland CA
+93,Chambéry,chambéry,,fr,Chambéry
+52,"Brooklyn, CT 06234",brooklyn,06234,us,"Brooklyn, CT"

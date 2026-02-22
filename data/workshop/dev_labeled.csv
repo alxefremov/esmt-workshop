@@ -1,0 +1,71 @@
+record_id,Unstructured Address,Town Name,Postal Code,Country Code (2 characters),Remaining Address (derived)
+84,"Stoke-on-Trent, United Kingdom",stoke-on-trent,,gb,"Stoke-on-Trent, United Kingdom"
+54,"332 Menzies Street, Victoria, BC V8V 2G9",victoria,v8v 2g9,ca,"332 Menzies Street, Victoria, BC V8V 2G9"
+71,"0 Egmont Road, Middlesbrough, TS4 2HT",middlesbrough,ts4 2ht,gb,"0 Egmont Road, Middlesbrough, TS4 2HT"
+46,SF CA,sf,,us,SF CA
+45,San Francisco CA,san francisco,,us,San Francisco CA
+40,"5276 Old Mill Rd NE, Bainbridge Island, WA 98110",bainbridge island,98110,us,"5276 Old Mill Rd NE, Bainbridge Island, WA"
+23,2120 E Hill Street #104 Signal Hill CA 90755,signal hill,90755,us,2120 E Hill Street #104 Signal Hill CA
+81,"Studio J, 4th Floor,,8 Lower Ormond St, Manchester M1 5QF, United Kingdom",manchester,m1 5qf,gb,"Studio J, 4th Floor,,8 Lower Ormond St, Manchester M1 5QF, United Kingdom"
+11,"Canal Rd, Deltona FL",deltona,,us,"Canal Rd, Deltona FL"
+1,"Black Alliance for Just Immigration 660 Nostrand Ave, Brooklyn, N.Y., 11216",,11216,us,"Black Alliance for J t Immigration 660 Nostrand Ave, Brooklyn, N.Y."
+19,30 West 26th Street Sixth Floor,,,us,30 West 26th Street Sixth Floor
+31,"1600 Pennsylvania Ave NW, Washington DC 20500",washington,20500,us,"1600 Pennsylvania Ave NW, Washington DC"
+74,"Flat 14, Ziggurat Building, 60-66 Saffron Hill, London, EC1N 8QX, United Kingdom",london,ec1n 8qx,gb,"Flat 14, Ziggurat Building, 60-66 Saffron Hill, London, EC1N 8QX, United Kingdom"
+34,"99-40 63rd Rd, Queens, NY 11374",,11374,us,"99-40 63rd Rd, Queens, NY"
+91,"Lloyds Bank International Limited, PO Box 111, Peveril Buildings, Peveril Square, Douglas, Isle of Man IM99 1JJ",douglas,im99 1jj,im,"Lloyds Bank International L ited, PO Box 111, Peveril Buildings, Peveril Square, Douglas, Isle of Man IM99 1JJ"
+5,Make the Road New York 92-10 Roosevelt Avenue Jackson Heights Queens 11372,,11372,us,Make the Road New York 92-10 Roosevelt Avenue Jackson Heights Queens
+77,"Unit 26 Roper Close, Canterbury, CT2 7EP",canterbury,ct2 7ep,gb,"Unit 26 Roper Close, Canterbury, CT2 7EP"
+78,"Lorem House, The Marina, Lowestoft NR32 1HH, United Kingdom",lowestoft,nr32 1hh,gb,"Lorem House, The Marina, Lowestoft NR32 1HH, United Kingdom"
+13,123 Main St Apt 456 Oakland CA 94789,oakland,94789,us,123 Main St Apt 456 Oakland CA
+32,"1600 Pennsylvania Ave NW, Washington D.C 20500",washington,20500,us,"1600 Pennsylvania Ave NW, Washington D.C"
+56,123 Main St SE Montréal QC H3Z 2Y7,montréal,h3z 2y7,ca,123 Main St SE Montréal QC H3Z 2Y7
+89,"12 Newgate Shopping Centre, George St, Bishop Auckland, Co. Durham, DL14 7JQ",bishop auckland,dl14 7jq,gb,"12 Newgate Shopping Centre, George St, Bishop Auckland, Co. Durham, DL14 7JQ"
+27,"25050 ALESSANDRO BLVD, STE B, MORENO VALLEY, CA, 92553-4313",moreno valley,92553-4313,us,"25050 ALESSANDRO BLVD, STE B, MORENO VALLEY, CA"
+43,"5850 US Highway 431, STE 1, Albertville, AL, 35950-2049",albertville,35950-2049,us,"5850 US Highway 431, STE 1, Albertville, AL"
+70,"1A Egmont Road, Middlesbrough, TS4 2HT",middlesbrough,ts4 2ht,gb,"1A Egmont Road, Middlesbrough, TS4 2HT"
+16,whole foods nyc,nyc,,us,whole foods
+41,"1400 West Transport Road, Fayetteville, AR, 72704",fayetteville,72704,us,"1400 West Transport Road, Fayetteville, AR"
+97,"Paris, FR",paris,,fr,"Paris, FR"
+10,"103 BEAL PKWY SE, FT WALTON BEACH, FL",ft walton beach,,us,"103 BEAL PKWY SE, FT WALTON BEACH, FL"
+73,"Idas Court, 4-6 Princes Road, Hull, HU5 2RD",hull,hu5 2rd,gb,"Idas Court, 4-6 Princes Road, Hull, HU5 2RD"
+12,123 Main St # 456 Oakland CA 94789,oakland,94789,us,123 Main St # 456 Oakland CA
+48,"Carmel by the Sea, CA",carmel by the sea,,us,"Carmel by the Sea, CA"
+86,"The Old Manor, 11-12 Sparrow Hill, Loughborough LE11 1BT, United Kingdom",loughborough,le11 1bt,gb,"The Old Manor, 11-12 Sparrow Hill, Loughborough LE11 1BT, United Kingdom"
+29,"4411 Stone Way North Seattle, King County, WA 98103",seattle,98103,us,"4411 Stone Way North Seattle, King County, WA"
+94,Chambery,chambery,,fr,Chambery
+6,"Do the Right Thing Way, Bed-Stuy, BK",,,us,"Do the Right Thing Way, Bed-Stuy, BK"
+67,"1 Riverside Dr Liverpool, Merseyside L3 4EN",liverpool,l3 4en,gb,"1 Riverside Dr Liverpool, Merseyside L3 4EN"
+66,"21, Kingswood Road SW2 4JE, London",london,sw2 4je,gb,"21, Kingswood Road SW2 4JE, London"
+36,"2501 N Blackwelder Ave, Oklahoma City, Oklahoma 73106",oklahoma city,73106,us,"2501 N Blackwelder Ave, Oklahoma City, Oklahoma"
+17,"921 83 street, nyc",nyc,,us,921 83 street
+50,"Manhattan, KS",manhattan,,us,"Manhattan, KS"
+35,"351 NW North St, Chehalis, WA 98532-1900",chehalis,98532-1900,us,"351 NW North St, Chehalis, WA"
+8,theatres in Fort Greene Brooklyn,,,us,theatres in Fort Greene Brooklyn
+96,Paris,paris,,fr,Paris
+28,"PO Box 1, Seattle, WA 98103",seattle,98103,us,"PO Box 1, Seattle, WA"
+20,30 W 26th St 6th Fl,,,us,30 W 26th St 6th Fl
+82,"Victoria Institute, The Blvd, ST6 6BD, United Kingdom",,st6 6bd,gb,"Victoria Institute, The Blvd, ST6 6BD, United Kingdom"
+26,"473 Boston Rd, Wilbraham, MA",wilbraham,,us,"473 Boston Rd, Wilbraham, MA"
+63,The Book Club 100-106 Leonard St Shoreditch London EC2A 4RH United Kingdom,london,ec2a 4rh,gb,The Book Club 100-106 Leonard St Shoreditch London EC2A 4RH United Kingdom
+14,123 Main St Apt #456 Oakland CA 94789,oakland,94789,us,123 Main St Apt #456 Oakland CA
+25,2455-B W BENCH RD OTHELLO WA 99344,othello,99344,us,2455-B W BENCH RD OTHELLO WA
+4,"ACLU DC P.O. Box 11637 Washington, DC 20008 United States",washington,20008,us,"ACLU DC P.O. Box 11637 Washington, DC United States"
+18,30 w 26 st,,,us,30 w 26 st
+39,"Atrium Mall, 640 Arthur Kill Rd, Staten Island, NY 10312",,10312,us,"Atrium Mall, 640 Arthur Kill Rd, Staten Island, NY"
+9,Barboncino 781 Franklin Ave Crown Heights Brooklyn NYC NY 11216 USA,nyc,11216,us,Barboncino 781 Franklin Ave Crown Heights Brooklyn NYC NY USA
+79,"St Johns Centre, Rope Walk, Bedford, Bedfordshire, MK42 0XE, United Kingdom",bedford,mk42 0xe,gb,"St Johns Centre, Rope Walk, Bedford, Bedfordshire, MK42 0XE, United Kingdom"
+7,book stores near me,,,us,book stores near me
+65,"318 Upper Street, N1 2XQ London",london,n1 2xq,gb,"318 Upper Street, N1 2XQ London"
+37,"1011 South Dr, Indiana, Pennsylvania 15705",indiana,15705,us,"1011 South Dr, Indiana, Pennsylvania"
+90,Castle Court Shopping Centre Castle Street Caerphilly CF83 1NY,caerphilly,cf83 1ny,gb,Castle Court Shopping Centre Castle Street Caerphilly CF83 1NY
+57,LaSalle Montréal QC,montréal,,ca,LaSalle Montréal QC
+100,"Museo del Prado C. de Ruiz de Alarcón, 23 28014 Madrid, España",madrid,28014,es,"Museo del Prado C. de Ruiz de Alarcón, 23 Madrid, España"
+55,123 Main St SE\nMontreal QC H3Z 2Y7,montreal,h3z 2y7,ca,123 Main St SE\nMontreal QC H3Z 2Y7
+44,"Columbus, OH",columbus,,us,"Columb , OH"
+51,"Brooklyn, NY",,,us,"Brooklyn, NY"
+68,"Stocks Ln, Knutsford, Cheshire East WA16 9EX, UK",knutsford,wa16 9ex,gb,"Stocks Ln, Knutsford, Cheshire East WA16 9EX, UK"
+47,"Carmel-by-the-Sea, CA",carmel-by-the-sea,,us,"Carmel-by-the-Sea, CA"
+69,"Royal Opera House, Bow St, Covent Garden, London, WC2E 9DD, United Kingdom",london,wc2e 9dd,gb,"Royal Opera House, Bow St, Covent Garden, London, WC2E 9DD, United Kingdom"
+62,"The Book Club 100-106 Leonard St, Shoreditch, London, Greater London, England, EC2A 4RH, United Kingdom",london,ec2a 4rh,gb,"The Book Club 100-106 Leonard St, Shoreditch, London, Greater London, England, EC2A 4RH, United Kingdom"
+98,IXe arrondissement Paris,paris,,fr,IXe arrondissement Paris
