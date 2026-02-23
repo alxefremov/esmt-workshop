@@ -8,7 +8,7 @@ from typing import Any
 
 import pandas as pd
 
-from esmt_workshop.constants import EVAL_FIELDS, ID_COL, LEADERBOARD_URL
+from esmt_workshop.constants import EVAL_FIELDS, ID_COL, LEADERBOARD_URL, LEADERBOARD_AUTH
 from esmt_workshop.utils import as_text, normalize_for_compare
 import requests
 import os
@@ -110,15 +110,15 @@ def evaluate_predictions(
         {
             "participant": email,
             "score": summary["micro_accuracy"] * 100,
-            "efficiency": "32%",
-            "cost": "$0.12",
+            "efficiency": "32%", # TODO
+            "cost": "$0.12", # TODO
             "additional": "baseline attempt"
         }
     ]
     requests.post(
         LEADERBOARD_URL,
         json=payload,
-        auth=requests.auth.HTTPBasicAuth("admin", "changeme"),
+        auth=LEADERBOARD_AUTH,
         headers={"Content-Type": "application/json"}
     )
     return {

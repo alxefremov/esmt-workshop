@@ -35,4 +35,7 @@ VALID_STAGES = tuple(DEFAULT_STAGE_MODELS.keys())
 
 LEADERBOARD_URL = "https://leaderboard-936597332885.europe-west10.run.app/api/results"
 
-DEFAULT_WORKSHOP_API_BASE_URL = "https://gemini-workshop-gateway-395622257429.europe-west4.run.app"
+DEFAULT_WORKSHOP_API_BASE_URL = "https://gemini-workshop-gateway-585578549491.europe-west4.run.app"
+
+import requests
+LEADERBOARD_AUTH = requests.auth.HTTPBasicAuth("admin", "changeme")
