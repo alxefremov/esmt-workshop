@@ -1,3 +1,18 @@
+# To share with students
+
+[01_baseline_fast_model.ipynb](https://colab.research.google.com/github/alxefremov/esmt-workshop/blob/main/notebooks/01_baseline_fast_model.ipynb)
+
+[02_prompt_tuning.ipynb](https://colab.research.google.com/github/alxefremov/esmt-workshop/blob/main/notebooks/02_prompt_tuning.ipynb)
+
+[03_advanced_model.ipynb](https://colab.research.google.com/github/alxefremov/esmt-workshop/blob/main/notebooks/03_advanced_model.ipynb)
+
+[04_two_stage_with_kb.ipynb](https://colab.research.google.com/github/alxefremov/esmt-workshop/blob/main/notebooks/04_two_stage_with_kb.ipynb)
+
+[05_input_guardrails.ipynb](https://colab.research.google.com/github/alxefremov/esmt-workshop/blob/main/notebooks/05_input_guardrails.ipynb)
+
+[06_final_submission_and_validation.ipynb](https://colab.research.google.com/github/alxefremov/esmt-workshop/blob/main/notebooks/06_final_submission_and_validation.ipynb)
+
+
 # ESMT Workshop: LLM for AML Address Structuring
 
 ## Business Context
