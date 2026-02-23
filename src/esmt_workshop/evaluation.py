@@ -25,6 +25,7 @@ def evaluate_predictions(
     *,
     id_col: str = ID_COL,
     eval_fields: list[str] | None = None,
+    email: str
 ) -> dict[str, Any]:
     fields = eval_fields or EVAL_FIELDS
 
@@ -107,7 +108,7 @@ def evaluate_predictions(
 
     payload = [
         {
-            "participant": os.getenv('WORKSHOP_EMAIL', ""),
+            "participant": email,
             "score": summary["micro_accuracy"] * 100,
             "efficiency": "32%",
             "cost": "$0.12",
