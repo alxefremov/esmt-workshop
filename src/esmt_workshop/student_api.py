@@ -19,12 +19,12 @@ from esmt_workshop.constants import (
     DEFAULT_BASELINE_MODEL,
     ID_COL,
     VALID_STAGES,
+    DEFAULT_WORKSHOP_API_BASE_URL
 )
 from esmt_workshop.pipeline import PipelineConfig, run_pipeline_on_dataframe
 from esmt_workshop.utils import as_text
 
 
-DEFAULT_WORKSHOP_API_BASE_URL = "https://gemini-workshop-gateway-395622257429.europe-west4.run.app"
 
 
 def _default_model_for_stage(stage: str) -> str:
@@ -50,9 +50,6 @@ def _build_proxy_client(email: str, *, mock_mode: bool) -> WorkshopApiClient:
             "WORKSHOP_API_BASE_URL is not set. "
             "Organizers should configure proxy endpoint, students only pass email."
         )
-
-    if not base_url:
-        base_url = "https://example.com"
 
     return WorkshopApiClient(
         base_url=base_url,
