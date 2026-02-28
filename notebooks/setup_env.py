@@ -13,7 +13,6 @@ def _find_project_root():
 
 
 def setup():
-    repo_url = "https://github.com/alxefremov/esmt-workshop.git"
     repo_dir = "esmt-workshop"
 
     project_root = _find_project_root()
@@ -30,13 +29,6 @@ def setup():
 
         print("Setup complete!")
     else:
-        # --- Running on Colab or outside the repo ---
-        if not os.path.exists(repo_dir):
-            print(f"Cloning {repo_url}...")
-            subprocess.run(["git", "clone", repo_url], check=True)
-        else:
-            print(f"Directory '{repo_dir}' already exists. Skipping clone.")
-
         # Install dependencies
         requirements_path = os.path.join(repo_dir, "requirements.txt")
         if os.path.exists(requirements_path):
