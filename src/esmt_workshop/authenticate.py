@@ -21,4 +21,6 @@ def authenticate():
     os.environ['WORKSHOP_EMAIL'] = gcloud_email if gcloud_email else os.environ.get('WORKSHOP_EMAIL', '')
 
     # Students only provide email; proxy endpoint details are managed by organizers.
-    return os.getenv('WORKSHOP_EMAIL', 'student@example.com')
+    student_email = os.getenv('WORKSHOP_EMAIL', 'student@example.com')
+    print('STUDENT_EMAIL =', student_email)
+    return student_email
