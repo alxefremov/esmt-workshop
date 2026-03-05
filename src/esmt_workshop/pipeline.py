@@ -110,7 +110,7 @@ def _detect_country_name(address: str, client: WorkshopApiClient, config: Pipeli
         max_tokens=32,
     )
     raw = client.generate(prompt=prompt, params=params)
-    return parse_country_name(raw)
+    return parse_country_name(raw["text"])
 
 
 def predict_single_address(address: str, client: WorkshopApiClient, config: PipelineConfig) -> dict[str, Any]:
@@ -147,7 +147,7 @@ def predict_single_address(address: str, client: WorkshopApiClient, config: Pipe
     )
     raw = client.generate(prompt=prompt, params=params)
 
-    parsed = parse_structured_fields(raw)
+    parsed = parse_structured_fields(raw["text"])
     if config.stage == "two_stage" and not parsed.get("Country Code (2 characters)"):
         parsed["Country Code (2 characters)"] = _country_name_to_iso2(detected_country)
 

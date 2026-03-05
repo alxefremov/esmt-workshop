@@ -106,7 +106,7 @@ def call_llm(
         top_k=top_k,
         max_tokens=max_tokens,
     )
-    return client.generate(prompt=as_text(prompt), params=params, extra_payload=extra_payload)
+    return client.generate(prompt=as_text(prompt), params=params, extra_payload=extra_payload)["text"]
 
 
 def call_llm_batch(
