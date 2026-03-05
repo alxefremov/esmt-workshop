@@ -4,7 +4,7 @@ from __future__ import annotations
 
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass
-from typing import Any
+from typing import Any, Tuple
 
 import pandas as pd
 import pycountry
@@ -113,7 +113,7 @@ def _detect_country_name(address: str, client: WorkshopApiClient, config: Pipeli
     return parse_country_name(raw["text"])
 
 
-def predict_single_address(address: str, client: WorkshopApiClient, config: PipelineConfig) -> dict[str, Any]:
+def predict_single_address(address: str, client: WorkshopApiClient, config: PipelineConfig) -> Tuple[dict[str, Any], dict[str, Any]]:
     _validate_stage(config.stage)
     text = as_text(address)
 
@@ -132,7 +132,7 @@ def predict_single_address(address: str, client: WorkshopApiClient, config: Pipe
                     "detected_country_name": "",
                 }
             )
-            return result
+            return result, {}
 
     if config.stage == "two_stage":
         detected_country = _detect_country_name(text, client, config)
@@ -171,7 +171,7 @@ def predict_single_address(address: str, client: WorkshopApiClient, config: Pipe
         }
     )
 
-    return parsed
+    return (parsed, raw["usage_metadata"])
 
 
 def run_pipeline_on_dataframe(
@@ -182,7 +182,7 @@ def run_pipeline_on_dataframe(
     address_col: str = ADDRESS_COL,
     id_col: str = ID_COL,
     max_workers: int = 8,
-) -> pd.DataFrame:
+) -> Tuple[pd.DataFrame, dict[str, Any]]:
     for required_col in (id_col, address_col):
         if required_col not in df.columns:
             raise ValueError(f"Missing required column: {required_col}")
@@ -192,7 +192,7 @@ def run_pipeline_on_dataframe(
     rows[address_col] = rows[address_col].map(as_text)
 
     ordered_results: dict[int, dict[str, Any]] = {}
-
+    usage_metadata_results: dict[str, Any] = { "model": config.model }
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
         future_map = {
             executor.submit(predict_single_address, address, client, config): (idx, record_id, address)
@@ -202,9 +202,10 @@ def run_pipeline_on_dataframe(
         for future in as_completed(future_map):
             idx, record_id, address = future_map[future]
             try:
-                result = future.result()
+                result, usage_metadata = future.result()
             except Exception as exc:
                 result = _empty_prediction()
+                usage_metadata = {}
                 result.update(
                     {
                         "valid_input": False,
@@ -218,9 +219,11 @@ def run_pipeline_on_dataframe(
             result["stage"] = config.stage
             result["model"] = config.model
             ordered_results[idx] = result
+            for k, v in usage_metadata.items():
+                usage_metadata_results[k] = usage_metadata_results.get(k, 0) + v
 
     output = [ordered_results[i] for i in range(len(ordered_results))]
-    return pd.DataFrame(output)
+    return (pd.DataFrame(output), usage_metadata_results)
 
 
 def build_default_config(stage: str) -> PipelineConfig:

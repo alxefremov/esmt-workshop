@@ -108,7 +108,7 @@ class WorkshopApiClient:
 
     class LlmResponse(TypedDict):
         text: str
-        usage_metadata: dict[str, Any]
+        usage_metadata: dict[str, int]
 
     def generate(self, *, prompt: str, params: GenerationParams, extra_payload: dict[str, Any] | None = None) -> LlmResponse:
         if self.mock_mode:
