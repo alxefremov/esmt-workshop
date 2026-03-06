@@ -11,7 +11,7 @@ except ImportError:
 def authenticate():
     if _ON_COLAB:
         auth.authenticate_user()
-        from google.collab import data_table
+        from google.colab import data_table
         data_table.enable_dataframe_formatter()
 
     result = subprocess.run(
