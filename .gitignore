@@ -10,6 +10,7 @@ __pycache__/
 
 # generated artifacts
 outputs/
+/esmt-workshop
 
 # optional: if you do NOT want raw source spreadsheets public
 # data/input/*.xlsx

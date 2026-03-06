@@ -7,7 +7,7 @@ import os
 import re
 import time
 from dataclasses import dataclass
-from typing import Any
+from typing import TypedDict
 
 import pycountry
 import requests
@@ -106,9 +106,13 @@ class WorkshopApiClient:
         self.bearer_token = token
         return token
 
-    def generate(self, *, prompt: str, params: GenerationParams, extra_payload: dict[str, Any] | None = None) -> str:
+    class LlmResponse(TypedDict):
+        text: str
+        usage_metadata: dict[str, int]
+
+    def generate(self, *, prompt: str, params: GenerationParams, extra_payload: dict[str, Any] | None = None) -> LlmResponse:
         if self.mock_mode:
-            return self._mock_generate(prompt)
+            return {"text": self._mock_generate(prompt), "usage_metadata": {}}
 
         resolved_model = as_text(params.model)
         if not resolved_model:
@@ -152,7 +156,10 @@ class WorkshopApiClient:
                     timeout=self.timeout_seconds,
                 )
                 response.raise_for_status()
-                return self._extract_text(response)
+                return {
+                    "text": self._extract_text(response), 
+                    "usage_metadata": self._extract_usage_metadata(response)
+                }
             except Exception as exc:
                 last_error = str(exc)
                 time.sleep(0.5 * attempt)
@@ -183,6 +190,26 @@ class WorkshopApiClient:
 
         return response.text
 
+    def _extract_usage_metadata(self, response: requests.Response) -> dict[str, Any]:
+        content_type = response.headers.get("Content-Type", "")
+        if "application/json" not in content_type:
+            return {}
+
+        try:
+            data = response.json()
+        except ValueError:
+            return {}
+
+        # common shapes
+        if isinstance(data, dict):
+            if isinstance(data.get("usage_metadata"), dict):
+                return data["usage_metadata"]
+            if isinstance(data.get("usage"), dict):
+                return data["usage"]
+            if isinstance(data.get("token_usage"), dict):
+                return data["token_usage"]
+
+        return {}
     def _mock_generate(self, prompt: str) -> str:
         # Country detector flow.
         if "Return only one country name" in prompt:

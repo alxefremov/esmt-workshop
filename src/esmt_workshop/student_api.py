@@ -8,7 +8,7 @@ This module exposes:
 from __future__ import annotations
 
 import os
-from typing import Any, Sequence
+from typing import Any, Sequence, Tuple
 
 import pandas as pd
 
@@ -106,7 +106,7 @@ def call_llm(
         top_k=top_k,
         max_tokens=max_tokens,
     )
-    return client.generate(prompt=as_text(prompt), params=params, extra_payload=extra_payload)
+    return client.generate(prompt=as_text(prompt), params=params, extra_payload=extra_payload)["text"]
 
 
 def call_llm_batch(
@@ -185,7 +185,7 @@ def process_batch_addresses(
     id_col: str = ID_COL,
     address_col: str = ADDRESS_COL,
     mock_mode: bool = False,
-) -> pd.DataFrame:
+) -> Tuple[pd.DataFrame, dict[str, Any]]:
     """Process a batch of addresses and return a prediction DataFrame."""
     if isinstance(addresses, str):
         raise ValueError("Batch API expects a sequence or DataFrame, not a single string.")
@@ -268,7 +268,7 @@ def process_single_address(
         address_col=address_col,
         mock_mode=mock_mode,
     )
-    return result_df.iloc[0].to_dict()
+    return result_df[0].iloc[0].to_dict()
 
 
 def process_addresses(

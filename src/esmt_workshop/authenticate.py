@@ -11,6 +11,8 @@ except ImportError:
 def authenticate():
     if _ON_COLAB:
         auth.authenticate_user()
+        from google.colab import data_table
+        data_table.enable_dataframe_formatter()
 
     result = subprocess.run(
         ["gcloud", "config", "get-value", "account"],
@@ -23,4 +25,5 @@ def authenticate():
     # Students only provide email; proxy endpoint details are managed by organizers.
     student_email = os.getenv('WORKSHOP_EMAIL', 'student@example.com')
     print('STUDENT_EMAIL =', student_email)
+
     return student_email
