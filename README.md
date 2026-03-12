@@ -11,12 +11,9 @@
 
 [04_Advanced_Parsing_with_Knowledge.ipynb](https://colab.research.google.com/github/alxefremov/esmt-workshop/blob/main/04_Advanced_Parsing_with_Knowledge.ipynb)
 
-## Short links
-
-[This repository](https://tinyurl.com/8s6wva4v)
-
 [Leaderboard](https://tinyurl.com/bdf4vyvv)
 
+[~~This repository~~](https://tinyurl.com/8s6wva4v)
 
 ## Business Context
 Starting in **November 2026**, SWIFT AML workflows no longer accept unstructured postal addresses. Address data must be mapped into structured fields.
