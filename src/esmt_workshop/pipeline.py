@@ -204,6 +204,8 @@ def run_pipeline_on_dataframe(
             try:
                 result, usage_metadata = future.result()
             except Exception as exc:
+                if isinstance(exc, RuntimeError) and ("403 Client Error" in f"{exc}"):
+                    raise BaseException(f"Account {client.email} has no permissions to use api")
                 result = _empty_prediction()
                 usage_metadata = {}
                 result.update(
