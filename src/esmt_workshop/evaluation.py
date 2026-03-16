@@ -167,7 +167,7 @@ def publish_to_leaderboard(report: dict[str, Any], email: str) -> None:
         "participant": email,
         "score": report["summary"]["micro_accuracy"] * 100,
         "efficiency": "32%", # TODO
-        "cost": f"${calculate_cost(usage)}",
+        "cost": f"${calculate_cost(report['usage_metadata'])}",
         "additional": "baseline attempt"
     }]
     requests.post(
